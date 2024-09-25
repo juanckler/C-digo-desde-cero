@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #1B263B;
+  }
+  header{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around, flex-end;
+    margin-bottom: 1vw;
+  }
+  footer{
+    background-color: #778DA9;
+    height: auto;
+    width: auto;
+    margin-top: 1rem;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    font-family: "Plaster", system-ui;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .bienvenido{
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: "Press Start 2P", system-ui;
+  }
+  
+  .registro{
+    font-family: "Fira Code", monospace;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .registro1{
+    font-family: "Fira Code", monospace;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .bienvenido{
+    color:white;
+  }
+  .copy{
+    color: white;
+    margin: 1rem;
+  
+  }
+  .tyc{
+    color: white;
+    margin: 1rem;
+  }
+  .derechos{
+    font-size: 70%;
+    display: flex;
+    flex-direction: row;
+  }
+  .navegador {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem; 
+    padding: 0.5rem 0;
+  }
+  
+  .cuadro, .cuadro1 {
+    display: flex;
+    align-items: center;
+    background-color: #3cc2e9; 
+    border-radius: 14.5px; 
+    padding: 0.7rem 0.8rem; 
+    box-sizing: border-box;
+  }
+  
+  .cuadro:hover, .cuadro1:hover {
+    background-color: #1ab2d9; 
+  }
+  
+  .icono {
+    margin-right: 8px; 
+    width: 3.2rem; 
+    height: 2.2rem;
+  }
+  .img1{
+    width: 10rem;
+    height: 10rem;
+  }
+  .img2{
+    width: 50vw;
+    height: 30vw;
+    border-radius: 14.5px; 
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .navegador {
+        flex-direction: column; 
+        gap: 0.6rem;
+    }
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+    width: 100%;
+    height: auto;
+    font-family: "Plaster", system-ui;
+    text-decoration: underline;
+    text-align: center;
+  }
+    .cuadro, .cuadro1 {
+        width: 100%; 
+        height: 7vh;
+        justify-content: center; 
+    }
+    .img1{
+      width: 5rem;
+      height: 5rem;
+      margin: 1rem;
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } 
+  }

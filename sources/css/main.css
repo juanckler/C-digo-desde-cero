@@ -1,0 +1,245 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.icono-menu{
+  margin: 40px 50px;
+}
+
+.icono-menu img{
+  height: 7vh;
+  width: 5vh;
+  cursor: pointer;
+}
+
+.cont-menu{
+  background-color: rgb(42,42,42);
+  box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+  width: 400px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .5s ease;
+}
+
+.active{
+  transform: translate(-600px);
+}
+
+.cont-menu ul{
+  padding: 100px 0px 20px 0px;
+  list-style: none;
+}
+
+.cont-menu ul li{
+  color: white;
+  display: block;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.cont-menu ul li:hover{
+  background-color: rgb(228,228,228);
+  color: rgb(42,42,42);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #1B263B;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+}
+nav{
+  display: flex;
+  justify-content: space-around, flex-end;
+  margin-bottom: 1vw;
+}
+footer{
+  background-color: #778DA9;
+  height: auto;
+  width: auto;
+  margin-top: 1rem;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3rem;
+  font-family: "Plaster", system-ui;
+  text-decoration: underline;
+  text-align: center;
+}
+.bienvenido{
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: "Press Start 2P", system-ui;
+}
+.acerca1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+  font-family: "Press Start 2P", system-ui;
+  text-decoration: underline;
+  text-align: center;
+}
+.acerca{
+  font-size: 1.05rem;
+  font-family: "Fira Code", monospace;
+  color: white;
+  width: 30rem;
+}
+.registro{
+  font-family: "Fira Code", monospace;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.registro1{
+  font-family: "Fira Code", monospace;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.bienvenido{
+  color:white;
+}
+.copy{
+  color: white;
+  margin: 1rem;
+
+}
+.tyc{
+  color: white;
+  margin: 1rem;
+}
+.derechos{
+  font-size: 70%;
+  display: flex;
+  flex-direction: row;
+}
+.navegador {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem; 
+  padding: 0.5rem 0;
+}
+.tit2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Press Start 2P", system-ui;
+  text-decoration: underline;
+  text-align: center;
+}
+.tit1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 2rem;
+}
+.qs{
+    font-size: 1.05rem;
+    font-family: "Fira Code", monospace;
+    color: white;
+    
+}
+
+.cuadro, .cuadro1 {
+  display: flex;
+  align-items: center;
+  background-color: #3cc2e9; 
+  border-radius: 14.5px; 
+  padding: 0.7rem 0.8rem; 
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.cuadro:hover, .cuadro1:hover {
+  background-color: #1ab2d9; 
+  
+}
+
+.icono {
+  margin-right: 8px; 
+  width: 3.2rem; 
+  height: 2.2rem;
+}
+.img1{
+  width: 20vh;
+  height: 20vh;
+  margin: 1em;
+  cursor: pointer;
+}
+.img2{
+  width: 50vw;
+  height: 30vw;
+  border-radius: 14.5px; 
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img3{
+  width: 60vh;
+  height: 40vh;
+}
+@media (max-width: 768px) {
+  .navegador {
+      flex-direction: column; 
+      gap: 0.6rem;
+  }
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: x-large;
+  width: 100%;
+  height: auto;
+  font-family: "Plaster", system-ui;
+  text-decoration: underline;
+  text-align: center;
+}
+  .cuadro, .cuadro1 {
+      width: 100%; 
+      height: 7vh;
+      justify-content: center; 
+  }
+  .img1{
+    width: 5rem;
+    height: 5rem;
+    margin: 1em;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  .icono-menu img{
+    height: 1em;
+    width: 2rem;
+    cursor: pointer;
+  }
+}

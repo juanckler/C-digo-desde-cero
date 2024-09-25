@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #1B263B;
+}
+header{
+  display: flex;
+  justify-content: flex-start;
+}
+nav{
+  display: flex;
+  justify-content: space-around, flex-end;
+  margin-bottom: 1vw;
+}
+footer{
+  background-color: #778DA9;
+  height: auto;
+  width: auto;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  width: 100vw;
+  color: white;
+  font-family: "Plaster", system-ui;
+  text-decoration: underline;
+  text-align: center;
+}
+.bienvenido{
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Press Start 2P", system-ui;
+}
+.registro{
+  font-family: "Fira Code", monospace;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+.registro1{
+  font-family: "Fira Code", monospace;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+.bienvenido{
+  color:white;
+}
+.copy{
+  color: white;
+}
+.tyc{
+  color: white;
+}
+.cuadro{
+  position: relative;
+  display: inline;
+  background-color: #219EBC;
+  width: auto;
+  border-radius: 14.5px;
+  margin-left: 50vw;
+  padding: .5%;
+}
+.cuadro1{
+  position: relative;
+  display: inline-block;
+  background-color: #219EBC;
+  width: auto;
+  border-radius: 14.5px;
+  margin-left: 5vw;
+  padding: .5%;
+}
+.img1{
+  margin: 10px;
+}
+.img2{
+  display: flex;
+  justify-content: center;
+  border-radius: 65.35px;
+  margin-bottom: 50px;
+}

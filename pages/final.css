@@ -1,0 +1,15 @@
+.derechos{
+    font-size: 70%;
+    display: flex;
+    flex-direction: row;
+}
+    .tyc{
+        color: white;
+        margin: 1rem;
+}
+.copy{
+    color: white;
+    margin: 1rem;
+}
+    
+

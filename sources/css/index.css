@@ -1,0 +1,398 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    .v91_2 {
+      width: 100vw;
+      height: 280vh;
+      background: rgba(27,38,59,1);
+      opacity: 1;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex: 1 1 30%;
+    }
+    .v91_3 {
+      width: 100vw;
+      height: 280vh;
+      background: rgba(27,38,59,1);
+      opacity: 1;
+      position: absolute;
+      top: 39px;
+      left: 4px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex: 1 1 30%;
+    }
+    .v91_4 {
+      width: 254px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 7px;
+      left: 86px;
+      text-shadow: 0px 0.5941043496131897px 0px rgba(0, 0, 0, 0.25);
+      font-family: Plaster;
+      font-weight: Regular;
+      font-size: 19px;
+      opacity: 1;
+      text-align: center;
+    }
+    .v91_5 {
+      width: 288px;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 96px;
+      left: 60px;
+      font-family: Press Start 2P;
+      font-weight: Regular;
+      font-size: 15px;
+      opacity: 1;
+      text-align: center;
+    }
+    .v91_20 {
+      width: 318px;
+      height: 205px;
+      background: url("../img/v91_20.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 189px;
+      left: 27px;
+      border-top-left-radius: 65px;
+      border-top-right-radius: 65px;
+      border-bottom-left-radius: 65px;
+      border-bottom-right-radius: 65px;
+      overflow: hidden;
+    }
+    .v91_21 {
+      width: 22px;
+      height: 4px;
+      background: rgba(217,217,217,1);
+      opacity: 1;
+      position: absolute;
+      top: 29px;
+      left: 362px;
+      overflow: hidden;
+    }
+    .v91_22 {
+      width: 22px;
+      height: 4px;
+      background: rgba(217,217,217,1);
+      opacity: 1;
+      position: absolute;
+      top: 20px;
+      left: 362px;
+      overflow: hidden;
+    }
+    .v91_23 {
+      width: 22px;
+      height: 4px;
+      background: rgba(217,217,217,1);
+      opacity: 1;
+      position: absolute;
+      top: 11px;
+      left: 362px;
+      overflow: hidden;
+    }
+  
+    .v223_17 {
+      width: 139px;
+      height: 17px;
+      background: rgba(33,158,188,1);
+      opacity: 1;
+      position: absolute;
+      top: 57px;
+      left: 234px;
+      border-top-left-radius: 14px;
+      border-top-right-radius: 14px;
+      border-bottom-left-radius: 14px;
+      border-bottom-right-radius: 14px;
+      overflow: hidden;
+    }
+    .v223_21 {
+      width: 139px;
+      height: 17px;
+      background: rgba(33,158,188,1);
+      opacity: 1;
+      position: absolute;
+      top: 57px;
+      left: 53px;
+      border-top-left-radius: 14px;
+      border-top-right-radius: 14px;
+      border-bottom-left-radius: 14px;
+      border-bottom-right-radius: 14px;
+      overflow: hidden;
+    }
+    .v223_18 {
+      width: 154px;
+      color: rgba(255,255,255,0.8999999761581421);
+      position: absolute;
+      top: 59px;
+      left: 239px;
+      font-family: Fira Code;
+      font-weight: Bold;
+      font-size: 10px;
+      opacity: 1;
+      text-align: center;
+    }
+    .v223_20 {
+      width: 15px;
+      height: 16px;
+      background: url("../img/v223_20.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 57px;
+      left: 249px;
+      border-top-left-radius: 138px;
+      border-top-right-radius: 138px;
+      border-bottom-left-radius: 138px;
+      border-bottom-right-radius: 138px;
+      overflow: hidden;
+    }
+    .v223_22 {
+      width: 154px;
+      color: rgba(255,255,255,0.8999999761581421);
+      position: absolute;
+      top: 58px;
+      left: 53px;
+      font-family: Fira Code;
+      font-weight: Bold;
+      font-size: 10px;
+      opacity: 1;
+      text-align: center;
+    }
+    .v223_23 {
+      width: 17px;
+      height: 13px;
+      background: url("../img/v223_23.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 59px;
+      left: 68px;
+      overflow: hidden;
+    }
+    .v222_104 {
+      width: 17px;
+      height: 13px;
+      background: url("../img/v222_104.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 59px;
+      left: 68px;
+      overflow: hidden;
+    }
+    .v91_24 {
+      width: 85px;
+      height: 80px;
+      background: url("../img/v91_24.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 16px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .v91_6 {
+      width: 300vw;
+      height: 240vh;
+      background: rgba(119,141,169,1);
+      opacity: 1;
+      position: absolute;
+      top: 442px;
+      left: 0px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex: 1 1 30%;
+    }
+    .v190_5 {
+      width: 99px;
+      height: 108px;
+      background: url("../img/v190_5.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 448px;
+      left: 77px;
+      overflow: hidden;
+    }
+    .v91_7 {
+      width: 120px;
+      height: 124px;
+      background: url("../img/v91_7.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 433px;
+      left: 182px;
+      overflow: hidden;
+    }
+    .v91_18 {
+      width: 283px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 566px;
+      left: 55px;
+      font-family: Fira Code;
+      font-weight: Regular;
+      font-size: 16px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v158_276 {
+      width: 283px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 566px;
+      left: 55px;
+      font-family: Fira Code;
+      font-weight: Regular;
+      font-size: 16px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v91_19 {
+      width: 283px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 990px;
+      left: 22px;
+      font-family: Fira Code;
+      font-weight: Regular;
+      font-size: 16px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v91_16 {
+      width: 113px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 772px;
+      left: 43px;
+      font-family: Fira Code;
+      font-weight: Regular;
+      font-size: 20px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v91_17 {
+      width: 341px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 802px;
+      left: 29px;
+      font-family: Fira Code;
+      font-weight: Regular;
+      font-size: 16px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v91_14 {
+      width: 219px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 880px;
+      left: 29px;
+      font-family: Fira Code;
+      font-weight: Regular;
+      font-size: 20px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v91_15 {
+      width: 282px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 906px;
+      left: 23px;
+      font-family: Zilla Slab;
+      font-weight: Regular;
+      font-size: 16px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v91_10 {
+      width: 118px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 937px;
+      left: 29px;
+      font-family: Zilla Slab;
+      font-weight: Regular;
+      font-size: 20px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v91_12 {
+      width: 273px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 965px;
+      left: 22px;
+      font-family: Fira Code;
+      font-weight: Regular;
+      font-size: 12px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v91_9 {
+      width: 90px;
+      height: 78px;
+      background: url("../img/v91_9.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1043px;
+      left: 29px;
+      overflow: hidden;
+    }
+    .v91_11 {
+      width: 61px;
+      height: 61px;
+      background: url("../img/v91_11.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1051px;
+      left: 163px;
+      overflow: hidden;
+    }
+  }
+  
+  
