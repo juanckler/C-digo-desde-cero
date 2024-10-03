@@ -3,17 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .icono-menu{
   margin: 40px 50px;
+  position: relative;
+  z-index: 10;
 }
 
 .icono-menu img{
-  height: 7vh;
-  width: 5vh;
+  vertical-align: top;
+  width: 10vh;
   cursor: pointer;
 }
-
+.container1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
 .cont-menu{
   background-color: rgb(42,42,42);
   box-shadow: 2px 0px 5px 2px rgb(66,66,66);
@@ -24,16 +30,13 @@
   left: 0;
   transition: all .5s ease;
 }
-
 .active{
   transform: translate(-600px);
 }
-
 .cont-menu ul{
   padding: 100px 0px 20px 0px;
   list-style: none;
 }
-
 .cont-menu ul li{
   color: white;
   display: block;
@@ -42,17 +45,9 @@
   padding: 10px 50px;
   cursor: pointer;
 }
-
 .cont-menu ul li:hover{
   background-color: rgb(228,228,228);
   color: rgb(42,42,42);
-}
-
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 body{
   background-color: #1B263B;
@@ -66,12 +61,7 @@ nav{
   justify-content: space-around, flex-end;
   margin-bottom: 1vw;
 }
-footer{
-  background-color: #778DA9;
-  height: auto;
-  width: auto;
-  margin-top: 1rem;
-}
+
 .title{
   display: flex;
   justify-content: center;
@@ -81,27 +71,69 @@ footer{
   font-family: "Plaster", system-ui;
   text-decoration: underline;
   text-align: center;
+
 }
 .bienvenido{
   text-align: center;
   font-size: 1.1rem;
   font-family: "Press Start 2P", system-ui;
 }
+.tit2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Press Start 2P", system-ui;
+  text-decoration: underline;
+  text-align: center;
+}
+.tit1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 2rem;
+}
+.cursos{
+  font-size: 1.05rem;
+  font-family: "Fira Code", monospace;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.qs{
+    font-size: 1.05rem;
+    font-family: "Fira Code", monospace;
+    color: white;
+    width: 100%;
+}
 .acerca1{
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 1rem;
+  font-size: 2,5em;
   font-family: "Press Start 2P", system-ui;
   text-decoration: underline;
   text-align: center;
+  width: 100%;
+  height: auto;
 }
 .acerca{
   font-size: 1.05rem;
   font-family: "Fira Code", monospace;
   color: white;
   width: 30rem;
+}
+.nombres{
+  font-size: 1.05rem;
+  font-family: "Fira Code", monospace;
+  color: white;
+  width: 100%;
 }
 .registro{
   font-family: "Fira Code", monospace;
@@ -138,32 +170,6 @@ footer{
   gap: 0.5rem; 
   padding: 0.5rem 0;
 }
-.tit2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 1.5rem;
-  font-family: "Press Start 2P", system-ui;
-  text-decoration: underline;
-  text-align: center;
-}
-.tit1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-family: "Orbitron", sans-serif;
-  text-decoration: underline;
-  text-align: center;
-  font-size: 2rem;
-}
-.qs{
-    font-size: 1.05rem;
-    font-family: "Fira Code", monospace;
-    color: white;
-    
-}
 
 .cuadro, .cuadro1 {
   display: flex;
@@ -180,26 +186,37 @@ footer{
   
 }
 
-.icono {
-  margin-right: 8px; 
-  width: 3.2rem; 
-  height: 2.2rem;
-}
 .img1{
-  width: 20vh;
-  height: 20vh;
-  margin: 1em;
+  width: 10rem;
+  height: 10rem;
   cursor: pointer;
+}
+.img4{
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem;
+}
+.img5{
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem;
 }
 .img2{
   width: 50vw;
   height: 30vw;
   border-radius: 14.5px; 
+  margin: 1em;
 }
 .container{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.nosotros{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
 .img3{
   width: 60vh;
@@ -222,24 +239,49 @@ footer{
   text-decoration: underline;
   text-align: center;
 }
+.acerca1{
+  font-size: 1em;
+}
+.icono-menu{
+  margin: 20px 25px;
+  position: relative;
+  z-index: 10;
+}
+
+.icono-menu img{
+  vertical-align: top;
+  width: 5vh;
+  cursor: pointer;
+}
   .cuadro, .cuadro1 {
       width: 100%; 
       height: 7vh;
       justify-content: center; 
-  }
-  .img1{
-    width: 5rem;
-    height: 5rem;
-    margin: 1em;
   }
   .container{
     display: flex;
     justify-content: center;
     align-items: center;
   } 
-  .icono-menu img{
-    height: 1em;
-    width: 2rem;
+  .img1{
+    width: 5rem;
+    height: 5rem;
     cursor: pointer;
+  }
+  .nosotros img{
+  height: 140px;
+  width: 95px;
+  }
+  .nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .nombres{
+    font-size: 12px;
+    font-family: "Fira Code", monospace;
+    color: white;
+    width: 100%;
   }
 }
